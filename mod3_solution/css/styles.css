@@ -2,6 +2,10 @@ body {
 	padding-top: 45px; 
 }
 
+h2 {
+		font-weight: bold;
+}
+
 #nav-header {
 	background-color: #a0caf0;
 }
@@ -25,8 +29,16 @@ body {
 
 #main-content p {
 	text-align: justify;
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background-color: #fff172;
 
+}
+
+#main-content span {
+	width: 100%;
+	display: inline-block;
+	font-size: 1.8em;
+	font-weight: bold;
 }
 
