@@ -6,20 +6,16 @@ body {
 	background-color: #a0caf0;
 }
 
-
 #navbar-items li:hover{
-	  background: #E7E7E7;
+	  background: #f7f7f7;
 }
 
 
 @media (max-width: 766px) {
  #navbar-items {
- 	background-color: #f7f7f7;
+ 	background-color: #ddd;
+
  }
-}
-
-#main-content  {
-
 }
 
 .row-fluid {
