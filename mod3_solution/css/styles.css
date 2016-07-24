@@ -1,0 +1,36 @@
+body { 
+	padding-top: 45px; 
+}
+
+#nav-header {
+	background-color: #a0caf0;
+}
+
+
+#navbar-items li:hover{
+	  background: #E7E7E7;
+}
+
+
+@media (max-width: 766px) {
+ #navbar-items {
+ 	background-color: #f7f7f7;
+ }
+}
+
+#main-content  {
+
+}
+
+.row-fluid {
+	padding: 0;
+}
+
+
+#main-content p {
+	text-align: justify;
+	padding: 10px;
+	background-color: #fff172;
+
+}
+
