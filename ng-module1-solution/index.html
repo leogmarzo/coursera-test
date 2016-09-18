@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="lib/angular.min.js"></script>
+	<script src="app.js"></script>
+
+</head>
+<body ng-app="LunchApp">
+	<div ng-controller="LunchController">
+		<input ng-model="lunchs"> 
+		<button ng-click="checkIfTooMuch()">Check If Too Much</button>
+		<br>
+		<span>{{message}}</span>
+	</div>
+</body>
+</html>
