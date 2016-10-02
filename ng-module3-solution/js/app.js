@@ -39,13 +39,14 @@
 		controller.errorMessage = "";
 
 		controller.search = function () {
-
+			
+			controller.found = [];
+			
 			if (controller.searchTerm == "") {
 				controller.errorMessage = "error";
 				return;
 			}
 
-			controller.found = [];
 			var promise = MenuSearchService.searchMenuItems(controller.searchTerm);
 			
 			promise.then(function(result) {
